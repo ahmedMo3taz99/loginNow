@@ -14,7 +14,7 @@ export default function App() {
         duration: 1200,
         once: false,
         offset: 120,
-        disable: "mobile",
+        // disable: "mobile",
       }}
     >
       <GlobalStyles />
