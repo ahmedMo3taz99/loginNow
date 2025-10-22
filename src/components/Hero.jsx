@@ -6,7 +6,7 @@ import { devices } from "../style/GlobalStyles";
 import IconRight from "../assets/iconRight.png";
 
 const HeaderContent = styled.div`
-  padding: 15rem 0 8rem 0;
+  padding: 8rem 0;
   width: 120rem;
   margin: 0 auto;
 
@@ -20,7 +20,7 @@ const HeaderContent = styled.div`
 
   @media ${devices.tabPort} {
     width: auto;
-    padding: 15rem 6rem 6rem 6rem;
+    padding: 6rem 6rem;
   }
 
   @media ${devices.phone} {
@@ -191,7 +191,7 @@ export const SmallContent = styled.div`
 
 export default function Hero() {
   return (
-    <HeaderContent id="Hero">
+    <HeaderContent id="ChangeYourStrategy">
       <HeroContent>
         <h1 data-aos="fade-up" data-aos-delay="200">
           ادخل إلى عالم التداول مع
@@ -224,17 +224,17 @@ export default function Hero() {
           <h3>مؤشرات ذكية </h3>
         </SmallContent>
 
-        <SmallContent data-aos="fade-up" data-aos-delay="500">
+        <SmallContent data-aos="fade-up" data-aos-delay="400">
           <img src={IconRight} alt="icon" className="src" />
           <h3>أنظمة سيولة لحظية </h3>
         </SmallContent>
 
-        <SmallContent data-aos="fade-up" data-aos-delay="700">
+        <SmallContent data-aos="fade-up" data-aos-delay="500">
           <img src={IconRight} alt="icon" className="src" />
           <h3>روبوتات تداول آلية </h3>
         </SmallContent>
 
-        <SmallContent className="last" data-aos="fade-up" data-aos-delay="900">
+        <SmallContent className="last" data-aos="fade-up" data-aos-delay="600">
           <img src={IconRight} alt="icon" className="src" />
           <h3>كل ما تحتاجه لتتداول بثقة واحتراف، في منصة واحدة متكاملة. </h3>
         </SmallContent>

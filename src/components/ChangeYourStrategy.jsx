@@ -6,7 +6,7 @@ import styled from "styled-components";
 import LogoProTraders from "../assets/protradersLogo.png";
 
 const FormContent = styled.div`
-  padding: 8rem 0;
+  padding: 15rem 0 8rem 0;
   width: 120rem;
   margin: 0 auto;
   text-align: center;
@@ -20,7 +20,7 @@ const FormContent = styled.div`
 
   @media ${devices.tabPort} {
     width: auto;
-    padding: 6rem 6rem;
+    padding: 15rem 6rem 6rem 6rem;
   }
 
   @media ${devices.phone} {
@@ -231,7 +231,7 @@ const SubmitButton = styled.button`
 
 export default function ChangeYourStrategy() {
   return (
-    <FormContent id="ChangeYourStrategy">
+    <FormContent id="Hero">
       <h2 data-aos="fade-up" data-aos-delay="300">
         غيّر طريقة تداولك باستخدام أدواتنا الذكية
       </h2>

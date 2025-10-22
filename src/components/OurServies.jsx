@@ -77,6 +77,8 @@ const AllServies = styled.div`
   }
   @media ${devices.phone} {
     gap: 2rem;
+    /* background-color: rebeccapurple; */
+    flex-direction: column;
   }
 `;
 
@@ -90,7 +92,8 @@ const RightServies = styled.div`
   }
 
   @media ${devices.phone} {
-    gap: 15rem;
+    gap: 2rem;
+    /* background-color: wheat; */
   }
 `;
 
@@ -104,11 +107,16 @@ const LeftServies = styled.div`
   }
 
   @media ${devices.phone} {
-    gap: 15rem;
+    /* background-color: red; */
+    gap: 2rem;
   }
 
   .spicail {
     margin-top: 20rem;
+
+    @media ${devices.phone} {
+      margin-top: 0rem;
+    }
   }
 `;
 
@@ -121,9 +129,9 @@ const SmallServies = styled.div`
   gap: 2rem;
 
   @media ${devices.phone} {
-    flex-direction: column;
+    /* flex-direction: column;
     gap: 0;
-    padding: 1rem 0.5rem;
+    padding: 1rem 0.5rem; */
   }
 
   h4 {
@@ -197,7 +205,7 @@ export default function OurServies() {
 
         <LeftServies>
           <SmallServies
-            className="spicail"
+            className="spicail spicail-order"
             data-aos="fade-right"
             data-aos-delay="600"
           >

@@ -23,8 +23,8 @@ export default function MainPage() {
   return (
     <AllStyledForProducts>
       <NaviagtionBar />
-      <Hero />
       <ChangeYourStrategy />
+      <Hero />
       <WhyYouChooseUs />
       <OurServies />
       <AboutTheCompany />
