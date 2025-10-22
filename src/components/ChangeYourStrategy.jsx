@@ -237,33 +237,33 @@ export default function ChangeYourStrategy() {
       </h2>
       <AllInfo>
         <InfoContent>
-          <SmallContent data-aos="fade-left" data-aos-delay="50">
+          <SmallContent data-aos="fade-left" data-aos-delay="200">
             <img src={IconRight} alt="icon" className="src" />
             <h3>توصيات يومية على الذهب والعملات </h3>
           </SmallContent>
 
-          <SmallContent data-aos="fade-left" data-aos-delay="100">
+          <SmallContent data-aos="fade-left" data-aos-delay="300">
             <img src={IconRight} alt="icon" className="src" />
             <h3>مؤشرات ذكية تعطي إشارات بيع وشراء دقيقة مع 3 أهداف ربح</h3>
           </SmallContent>
 
-          <SmallContent data-aos="fade-left" data-aos-delay="150">
+          <SmallContent data-aos="fade-left" data-aos-delay="400">
             <img src={IconRight} alt="icon" className="src" />
             <h3>نظام سيولة يكشف اتجاه السوق الحقيقي (المشترين أو البائعين) </h3>
           </SmallContent>
 
-          <SmallContent data-aos="fade-left" data-aos-delay="200">
+          <SmallContent data-aos="fade-left" data-aos-delay="500">
             <img src={IconRight} alt="icon" className="src" />
             <h3>روبوتات تداول تعمل آليًا 24 ساعة بدون تدخل بشري</h3>
           </SmallContent>
 
-          <SmallContent data-aos="fade-left" data-aos-delay="250">
+          <SmallContent data-aos="fade-left" data-aos-delay="600">
             <img src={IconRight} alt="icon" className="src" />
             <h3>دعم فني واستشاري على مدار الأسبوع </h3>
           </SmallContent>
         </InfoContent>
 
-        <FormWrapper data-aos="fade-right" data-aos-delay="200">
+        <FormWrapper data-aos="fade-right" data-aos-delay="500">
           <LogoWrapper>
             <img src={LogoProTraders} alt="ProTraders Logo" />
           </LogoWrapper>

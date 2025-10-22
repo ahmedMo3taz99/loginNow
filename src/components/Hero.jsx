@@ -193,14 +193,14 @@ export default function Hero() {
   return (
     <HeaderContent id="ChangeYourStrategy">
       <HeroContent>
-        <h1 data-aos="fade-up" data-aos-delay="150">
+        <h1 data-aos="fade-up" data-aos-delay="200">
           ادخل إلى عالم التداول مع
           <br />
-          <span data-aos="fade-up" data-aos-delay="200">
+          <span data-aos="fade-up" data-aos-delay="300">
             Pro Traders Group LTD UK
           </span>
         </h1>
-        <p data-aos="fade-up" data-aos-delay="250">
+        <p data-aos="fade-up" data-aos-delay="300">
           تداول بثقة مع شركة Pro Traders Group، الشركة البريطانية الرائدة في
           تطوير حلول التداول
           <br />
@@ -214,27 +214,27 @@ export default function Hero() {
       </HeroContent>
 
       <MainContent>
-        <SmallContent data-aos="fade-up" data-aos-delay="50">
+        <SmallContent data-aos="fade-up" data-aos-delay="100">
           <img src={IconRight} alt="icon" className="src" />
           <h3>إشارات تداول دقيقة </h3>
         </SmallContent>
 
-        <SmallContent data-aos="fade-up" data-aos-delay="100">
+        <SmallContent data-aos="fade-up" data-aos-delay="200">
           <img src={IconRight} alt="icon" className="src" />
           <h3>مؤشرات ذكية </h3>
         </SmallContent>
 
-        <SmallContent data-aos="fade-up" data-aos-delay="150">
+        <SmallContent data-aos="fade-up" data-aos-delay="300">
           <img src={IconRight} alt="icon" className="src" />
           <h3>أنظمة سيولة لحظية </h3>
         </SmallContent>
 
-        <SmallContent data-aos="fade-up" data-aos-delay="200">
+        <SmallContent data-aos="fade-up" data-aos-delay="400">
           <img src={IconRight} alt="icon" className="src" />
           <h3>روبوتات تداول آلية </h3>
         </SmallContent>
 
-        <SmallContent className="last" data-aos="fade-up" data-aos-delay="250">
+        <SmallContent className="last" data-aos="fade-up" data-aos-delay="500">
           <img src={IconRight} alt="icon" className="src" />
           <h3>كل ما تحتاجه لتتداول بثقة واحتراف، في منصة واحدة متكاملة. </h3>
         </SmallContent>

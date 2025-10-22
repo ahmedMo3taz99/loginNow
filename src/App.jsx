@@ -11,7 +11,7 @@ export default function App() {
   return (
     <AOSProvider
       options={{
-        duration: 1200,
+        duration: 500,
         once: true,
         offset: 120,
         // disable: "mobile",
