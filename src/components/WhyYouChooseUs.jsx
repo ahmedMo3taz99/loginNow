@@ -65,8 +65,8 @@ const ChooseUsContent = styled.div`
       }
 
       @media ${devices.phone} {
-        left: 8rem;
-        top: -1rem;
+        left: 5rem;
+        top: -2rem;
         width: 20rem;
       }
     }
