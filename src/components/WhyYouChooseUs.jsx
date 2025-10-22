@@ -138,12 +138,12 @@ const SmallConatiner = styled.div`
 export default function WhyYouChooseUs() {
   return (
     <ChooseUsContent id="WhyYouChooseUs">
-      <h2 data-aos="fade-up" data-aos-delay="300">
+      <h2 data-aos="fade-up" data-aos-delay="200">
         لماذا تختار Pro Traders Group؟
       </h2>
 
       <HeaderContainer>
-        <SmallConatiner data-aos="fade-left" data-aos-delay="500">
+        <SmallConatiner data-aos="fade-left" data-aos-delay="100">
           <img alt="BankIcon" src={Indecator01} className="src" />
 
           <h4> تحليل احترافي لحظي</h4>
@@ -153,7 +153,7 @@ export default function WhyYouChooseUs() {
           </p>
         </SmallConatiner>
 
-        <SmallConatiner data-aos="fade-right" data-aos-delay="500">
+        <SmallConatiner data-aos="fade-right" data-aos-delay="150">
           <img alt="GoldIcon" src={Indecator02} className="src" />
           <h4> إشارات مخصصة لنمط تداولك</h4>
 
@@ -163,7 +163,7 @@ export default function WhyYouChooseUs() {
           </p>
         </SmallConatiner>
 
-        <SmallConatiner data-aos="fade-left" data-aos-delay="800">
+        <SmallConatiner data-aos="fade-left" data-aos-delay="200">
           <img alt="ArrowIcon" src={System} className="src" />
           <h4> أنظمة مستقرة ومجربة</h4>
 
@@ -173,7 +173,7 @@ export default function WhyYouChooseUs() {
           </p>
         </SmallConatiner>
 
-        <SmallConatiner data-aos="fade-right" data-aos-delay="800">
+        <SmallConatiner data-aos="fade-right" data-aos-delay="250">
           <img alt="GoldIcon" src={Call} className="src" />
           <h4> دعم مستمر وشفافية كاملة</h4>
 

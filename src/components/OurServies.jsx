@@ -173,13 +173,13 @@ const SmallServies = styled.div`
 export default function OurServies() {
   return (
     <OurServiesContent id="OurServies">
-      <h2 data-aos="fade-up" data-aos-delay="300">
+      <h2 data-aos="fade-up" data-aos-delay="200">
         خدماتنا الأساسية
       </h2>
 
       <AllServies>
         <RightServies>
-          <SmallServies data-aos="fade-left" data-aos-delay="200">
+          <SmallServies data-aos="fade-left" data-aos-delay="50">
             <h4>1</h4>
             <div>
               <h5> قناة التوصيات</h5>
@@ -190,7 +190,7 @@ export default function OurServies() {
             </div>
           </SmallServies>
 
-          <SmallServies data-aos="fade-left" data-aos-delay="400">
+          <SmallServies data-aos="fade-left" data-aos-delay="100">
             <h4>3</h4>
             <div>
               <h5>نظام السيولة</h5>
@@ -207,7 +207,7 @@ export default function OurServies() {
           <SmallServies
             className="spicail spicail-order"
             data-aos="fade-right"
-            data-aos-delay="600"
+            data-aos-delay="150"
           >
             <h4>2</h4>
             <div>
@@ -219,7 +219,7 @@ export default function OurServies() {
             </div>
           </SmallServies>
 
-          <SmallServies data-aos="fade-right" data-aos-delay="600">
+          <SmallServies data-aos="fade-right" data-aos-delay="200">
             <h4>4</h4>
             <div>
               <h5> روبوتات التداول (Bots)</h5>

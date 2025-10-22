@@ -118,26 +118,26 @@ const SmallContent = styled.div`
 export default function Footer() {
   return (
     <FooterCotent id="Footer">
-      <h2 data-aos="fade-up" data-aos-delay="300">
+      <h2 data-aos="fade-up" data-aos-delay="150">
         ابدأ رحلتك الآن
       </h2>
-      <p data-aos="fade-up" data-aos-delay="600">
+      <p data-aos="fade-up" data-aos-delay="200">
         سواء كنت مبتدئًا أو محترفًا، فريق Pro Traders Group جاهز لمساعدتك على
         بناء استراتيجيتك وتحقيق أهدافك المالية.
       </p>
 
       <LastServies>
-        <SmallContent data-aos="fade-up" data-aos-delay="200">
+        <SmallContent data-aos="fade-up" data-aos-delay="100">
           <img src={IconRight} alt="icon" className="src" />
           <h3>اختر الباقة المناسبة لك وابدأ اليوم </h3>
         </SmallContent>
 
-        <SmallContent data-aos="fade-up" data-aos-delay="500">
+        <SmallContent data-aos="fade-up" data-aos-delay="150">
           <img src={IconRight} alt="icon" className="src" />
           <h3>بدون التزامات – يمكنك الإلغاء في أي وقت </h3>
         </SmallContent>
 
-        <SmallContent data-aos="fade-up" data-aos-delay="800">
+        <SmallContent data-aos="fade-up" data-aos-delay="200">
           <img src={IconRight} alt="icon" className="src" />
           <h3>دعم فني مباشر 24/7 </h3>
         </SmallContent>

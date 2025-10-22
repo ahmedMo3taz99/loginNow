@@ -85,10 +85,10 @@ const AboutContent = styled.div`
 export default function AboutTheCompany() {
   return (
     <AboutContent id="AboutTheCompany">
-      <h2 data-aos="fade-up" data-aos-delay="300">
+      <h2 data-aos="fade-up" data-aos-delay="150">
         نبذة عن الشركة
       </h2>
-      <p data-aos="fade-up" data-aos-delay="600">
+      <p data-aos="fade-up" data-aos-delay="200">
         <span>Pro Traders Group LTD (UK)</span>
         <br />
         شركة بريطانية مسجلة رسميًا، متخصصة في تطوير أنظمة تداول احترافية قائمة

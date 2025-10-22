@@ -232,38 +232,38 @@ const SubmitButton = styled.button`
 export default function ChangeYourStrategy() {
   return (
     <FormContent id="Hero">
-      <h2 data-aos="fade-up" data-aos-delay="300">
+      <h2 data-aos="fade-up" data-aos-delay="200">
         غيّر طريقة تداولك باستخدام أدواتنا الذكية
       </h2>
       <AllInfo>
         <InfoContent>
-          <SmallContent data-aos="fade-left" data-aos-delay="100">
+          <SmallContent data-aos="fade-left" data-aos-delay="50">
             <img src={IconRight} alt="icon" className="src" />
             <h3>توصيات يومية على الذهب والعملات </h3>
           </SmallContent>
 
-          <SmallContent data-aos="fade-left" data-aos-delay="300">
+          <SmallContent data-aos="fade-left" data-aos-delay="100">
             <img src={IconRight} alt="icon" className="src" />
             <h3>مؤشرات ذكية تعطي إشارات بيع وشراء دقيقة مع 3 أهداف ربح</h3>
           </SmallContent>
 
-          <SmallContent data-aos="fade-left" data-aos-delay="500">
+          <SmallContent data-aos="fade-left" data-aos-delay="150">
             <img src={IconRight} alt="icon" className="src" />
             <h3>نظام سيولة يكشف اتجاه السوق الحقيقي (المشترين أو البائعين) </h3>
           </SmallContent>
 
-          <SmallContent data-aos="fade-left" data-aos-delay="700">
+          <SmallContent data-aos="fade-left" data-aos-delay="200">
             <img src={IconRight} alt="icon" className="src" />
             <h3>روبوتات تداول تعمل آليًا 24 ساعة بدون تدخل بشري</h3>
           </SmallContent>
 
-          <SmallContent data-aos="fade-left" data-aos-delay="900">
+          <SmallContent data-aos="fade-left" data-aos-delay="250">
             <img src={IconRight} alt="icon" className="src" />
             <h3>دعم فني واستشاري على مدار الأسبوع </h3>
           </SmallContent>
         </InfoContent>
 
-        <FormWrapper data-aos="fade-right" data-aos-delay="300">
+        <FormWrapper data-aos="fade-right" data-aos-delay="200">
           <LogoWrapper>
             <img src={LogoProTraders} alt="ProTraders Logo" />
           </LogoWrapper>
